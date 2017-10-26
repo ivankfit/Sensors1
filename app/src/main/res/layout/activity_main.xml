@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dd.sensors.MainActivity">
+
+
+    <TextView android:text="Sensor "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textSize="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List of sensors"
+        android:id="@+id/sensorlist"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:onClick="sensorList"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensors"
+        android:paddingTop="100dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textview"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff7aff24"
+        android:textSize="35dp" />
+
+
+</LinearLayout>
